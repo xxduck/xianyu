@@ -28,9 +28,14 @@
  5. `scrapy crawl xianyu`#启动爬虫文件就可以在命令行中查看抓取到的数据
 
  ## 修改配置
+
  - 常规设置请参考scrapy文档修改setting文件
  - 程序已经实现了mongo数据库的写入功能，请修改setting文件中pipline的设置。将`ershou.pipelines.ErshouPipeline`注释掉，而将`ershou.pipelines.ErshouPipeline`取消注释
  >`ITEM_PIPELINES = {
     'ershou.pipelines.ErshouPipeline': 300,
     #'ershou.pipelines.WriteMongo': 3
 }`
+
+## 联系方式
+   <fang.1995@outlook.com> 
+

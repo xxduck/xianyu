@@ -66,8 +66,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'ershou.pipelines.ErshouPipeline': 300,
-    # 'ershou.pipelines.WriteMongo': 3
+    # 'ershou.pipelines.ErshouPipeline': 300,
+    'ershou.pipelines.WriteMongo': 3
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
